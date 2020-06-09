@@ -10,8 +10,7 @@ namespace PromotionEngine
             List<Product> products = new List<Product>();
 
             Console.WriteLine("Total number of orders");
-            int totalOrder = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < totalOrder; i++)
+            int totalOrder = Convert.ToInt32(Console.ReadLine());            for (int i = 0; i < totalOrder; i++)
             {
                 Console.WriteLine("Enter the type of product : A,B,C or D");
                 string type = Console.ReadLine();
